@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+:root {
+  --primary-color: #0957de;
+  --secondary-color: #ecf5f8;
+  --tertiary-color: #bfd2f8;
+  --txt-primary-color: #159eec;
+  --txt-secondary-color: #1f2b6c;
+  --txt-tertiary-color: #fcfefe;
+  --btn-primary-color: #4caf50;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar-logo {
+  font-family: "Work Sans", sans-serif;
+  padding: 10px;
+}
+
+.navbar-main {
+  background-color: var(--primary-color);
+}
+
+.tombol-nav {
+  border: none;
+  border-radius: 3px;
+  background-color: var(--btn-primary-color);
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  width: 100px;
+}
+
+.tombol-nav:hover {
+  background-color: white;
+  color: var(--btn-primary-color);
+  transition: 0.3s ease;
+}
+
+/* Beranda */
+.beranda {
+  background-image: url(../assets/images/background.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.beranda-content {
+  height: 50vh;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 5rem;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+.beranda-layanan {
+  background-color: var(--secondary-color);
+}
+
+.beranda-jadwal {
+  background-color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+.pic-layanan {
+  width: "400px";
+  height: "220px";
+}
+
+h1 {
+  color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+}
+
+h2 {
+  color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--txt-primary-color);
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.judul {
+  padding-top: 250px;
+  color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.deskripsi {
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  font-size: 38px;
+}
+
+.tombol-submit {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  height: 78px;
+  box-shadow: 1px 3px 3px rgba(124, 124, 124, 0.7);
+}
+
+.tombol-submit:hover {
+  background-color: white;
+  color: #0957de;
+  transition: 0.3s ease;
+}
+
+.tentang {
+  color: #1f2b6c;
+  font-family: "Yeseva One", cursive;
+  font-weight: 400px;
+}
+
+.tentang-content {
+  background-color: var(--secondary-color);
+  width: 90%;
+  margin-top: 40px;
+}
+
+.tentangKami {
+  margin-bottom: 10rem;
+}
+
+.logoRs {
+  width: 380px;
+  /* height: 541px; */
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.fasilitas {
+  height: 100vh;
+}
+
+.dokter {
+  background-color: var(--secondary-color);
+}
+
+.isi-kartu {
+  background-color: #bfd2f8;
+  color: #1f2b6c;
+  width: 17rem;
+  padding: 0;
+}
+
+.isi-kartu2 {
+  background-color: #ffffff;
+  height: 450px;
+  color: #000000;
+}
+
+.modal-jadwal {
+  color: var(--primary-color);
+}
+
+/* LAYANAN */
+
+.Layanan {
+  background-color: #a7c6fc;
+}
+
+.page-layanan {
+  padding-left: 50px;
+}
+
+.kartu-layanan {
+  background-color: #ecf5f8;
+}
+
+.list {
+  list-style-image: url(../assets/images/icon-layanan.png);
+}
+
+/* KARIR */
+.Karir {
+  background-color: #a7c6fc;
+}
+
+.Karir h1 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #0957de;
+}
+
+.Karir h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0957de;
+}
+
+.title-karir {
+  margin-bottom: -1px;
+}
+
+.kartu-Karir {
+  background-color: #fafafa;
+}
+/* hubungi kami */
+
+.hubungi {
+  height: 220vh;
+}
+
+.card-kami {
+  background-color: var(--primary-color);
+  width: 230px;
+  height: 250px;
+}
+
+.card-kami h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  color: var(--tertiary-color);
+  font-weight: 700;
+}
+
+.card-kami p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--tertiary-color);
+}
+
+.card-kami2 {
+  background-color: var(--tertiary-color);
+  width: 230px;
+  height: 250px;
+}
+
+.card-kami2 p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--txt-secondary-color);
+}
+
+.card-kami2 h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  color: var(--txt-secondary-color);
+  font-weight: 700;
+}
+
+.form {
+  background-color: var(--primary-color);
+  color: var(--txt-tertiary-color);
+  padding: 20px;
+}
+
+.tombol-kirim {
+  width: 100%;
+  padding: 8px;
+  background-color: var(--tertiary-color);
+  color: var(--txt-secondary-color);
+  border: none;
+}
+
+.tombol-kirim:hover {
+  transition: 0.3s ease;
+  background-color: var(--txt-secondary-color);
+  color: var(--tertiary-color);
+}
+
+#card {
+  margin-top: 50px;
+}
+
+.logo-layanan {
+  width: 40px;
+  height: 40px;
+}
+
+/* artikel */
+.artikel {
+  height: 320vh;
+  background-color: #fcfefe;
+}
+
+.search {
+  border: 1px solid black;
+  padding: 20px;
+  width: 95%;
+  border-radius: 5px;
+}
+
+.isi-kartu2 {
+  background-color: #ffffff;
+}
+
+.isi-kartu2 h3 {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 18px;
+  color: #0957de;
+}
+
+.isi-kartu2 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+
+/* Footer */
+footer {
+  background-color: #0957de;
+  color: #fcfefe;
+  font-family: "Work Sans", sans-serif;
+}
+
+.logo-footer {
+  border-radius: 20px;
+}
+
+footer h3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fcfefe;
+}
+
+footer p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.background-filter {
+  background: rgba(255, 255, 255, 0.7);
+  text-shadow: 2px 2px #ecf5f8;
+  /* background: rgba(255, 255, 255, 0.7); */
+}
+
+.background-filter2 {
+  height: 100vh;
+  background: linear-gradient(
+    268.24deg,
+    #e5e4e8 5%,
+    rgba(235, 234, 239, 0) 10%
+  );
+}
+
+.link {
+  text-decoration: none;
+  color: #159eec;
+  text-align: center;
+  padding-top: 30px;
+}
